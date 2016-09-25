@@ -1,0 +1,2 @@
+pug -P ./dev/*.pug -o ./distDev;
+./bin/injector;

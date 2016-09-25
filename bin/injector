@@ -1,0 +1,1 @@
+node node_modules/dependencies-injector/index.js -p ./dev/js/dependencies.json ./distDev/index.html;

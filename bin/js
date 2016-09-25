@@ -1,0 +1,2 @@
+mkdir ./distDev/js;
+browserify ./dev/js/app.js -o distDev/js/app.js -t [ babelify --presets [es2015] ];

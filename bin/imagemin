@@ -1,0 +1,1 @@
+imagemin ./dev/img ./distDev/img -p -o 0

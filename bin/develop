@@ -1,0 +1,18 @@
+
+#dir structure
+rm -rf ./distDev;
+mkdir ./distDev;
+
+# init js lint
+if [ ! -f ./.eslintrc.js ]; then
+  echo "Lint configuration";
+  ./node_modules/.bin/eslint --init;
+fi
+
+#compile tasks
+./bin/js;
+./bin/pug;
+./bin/sass;
+
+#copy files
+./bin/copy

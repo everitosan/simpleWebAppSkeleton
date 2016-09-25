@@ -1,0 +1,17 @@
+{
+  "name": "iajs",
+  "description": "test to implement js interactiveness avec threejs",
+  "main": "index.js",
+  "authors": [
+    "evesan"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/everitosan/simpleWebAppSkeleton",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,7 @@
+cp -r ./dev/fonts ./distDev/fonts;
+cp -r ./dev/img ./distDev/img;
+cp -r ./dev/models_3d ./distDev/models_3d;
+
+##libraries
+
+cp ./vendor/three.js/build/three.js ./distDev/js;

@@ -1,0 +1,7 @@
+{
+  "css": ["main.css"],
+  "js": [
+    "three.js",
+    "app.js"
+  ]
+}

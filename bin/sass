@@ -1,0 +1,2 @@
+mkdir ./distDev/css;
+node-sass -o ./distDev/css ./dev/sass/main.sass;
